@@ -13,6 +13,7 @@ namespace Aloha_Academy_Graduate_Project.Models
         [Required]
         public string Birthdate { get; set; }
         [Required]
+        [MaxLength(11)]
         public string Phone { get; set; }
         [Required]
         [DataType(DataType.Password)]
